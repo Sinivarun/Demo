@@ -8,14 +8,11 @@
     <title>Document</title>
     <script src="./script.js"></script>
 
-</head>
 
-<body>
-    <style>
-        body {
-            background-color: #74EBD5;
-            background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-
+<style>
+            body {
+            background-color: #000409;
+          
 
         }
 
@@ -45,7 +42,7 @@
             margin-top: 60px;
             padding: 10px;
            
-            background-color: rgb(122, 119, 111);
+            background-color: #132944;
 
 
         }
@@ -73,13 +70,19 @@
             padding-bottom: 32px;
         }
     </style>
+</head>
 
+<body>
 
     <br />
 
     <div class="wrap">
-        <h3 id="heading"> Calculator</h3>
-        <table id="calc">
+        <div class="row">
+            <div class="col-lg-4"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <table id="calc">
+            <h3 id="heading"> Calculator</h3>
+       
             <tr>
                 <td colspan="4"> <input class="btn" name="display" id="inpt" type="text"
                         style="background-color: seashell;"> </td>
@@ -124,6 +127,11 @@
 
 
         </table>
+        </div>
+        <div class="col-lg-4"></div>
+        </div>
+        
+        
     </div>
 
 </body>
